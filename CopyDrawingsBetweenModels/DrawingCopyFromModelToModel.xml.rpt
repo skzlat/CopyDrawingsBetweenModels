@@ -1,0 +1,466 @@
+template _tmp_0
+{
+    name = "tpled_template";
+    type = TEXTUAL;
+    width = 80;
+    maxheight = 99999;
+    columns = (1, 1);
+    gap = 0;
+    fillpolicy = EVEN;
+    filldirection = HORIZONTAL;
+    fillstartfrom = TOPLEFT;
+    margins = (0, 0, 0, 0);
+    gridxspacing = 1;
+    gridyspacing = 1;
+    version = 4;
+    created = "02.08.2021 16:06";
+    modified = "16.08.2022 15:29";
+    notes = "";
+
+    header _tmp_0
+    {
+        name = "Заголовок";
+        height = 2;
+
+        text _tmp_1
+        {
+            name = "<?xmlversion=\"1.0\"encoding=\"WINDOWS-1251\"?>";
+            x1 = 0;
+            y1 = 1;
+            x2 = 0;
+            y2 = 1;
+            string = "<?xml version=\"1.0\" encoding=\"WINDOWS-1251\"?>";
+            fontname = "Courier New";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 1;
+            fontratio = 1;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = 0;
+            fontlinewidth = 1;
+        };
+
+        text _tmp_2
+        {
+            name = "Текст_1";
+            x1 = 0;
+            y1 = 0;
+            x2 = 0;
+            y2 = 0;
+            string = "<Project>";
+            fontname = "Courier New";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 1;
+            fontratio = 1;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = -1;
+        };
+    };
+
+    row _tmp_1
+    {
+        name = "ASSEMBLY";
+        height = 4;
+        visibility = TRUE;
+        usecolumns = FALSE;
+        rule = "";
+        contenttype = "ASSEMBLY";
+        sorttype = COMBINE;
+
+        valuefield _tmp_2
+        {
+            name = "ASSEMBLY_POS_field";
+            location = (18, 2);
+            formula = "GetValue(\"DRAWING.NAME_BASE\")";
+            maxnumoflines = 1;
+            datatype = STRING;
+            class = "";
+            cacheable = TRUE;
+            formatzeroasempty = FALSE;
+            justify = LEFT;
+            visibility = TRUE;
+            angle = 0;
+            length = 20;
+            decimals = 2;
+            sortdirection = ASCENDING;
+            fontname = "fixfont";
+            fontcolor = 153;
+            fonttype = 4;
+            fontsize = 5;
+            fontratio = 1.5;
+            fontstyle = 0;
+            fontslant = 0;
+            pen = -1;
+            oncombine = NONE;
+            aligncontenttotop = FALSE;
+        };
+
+        valuefield _tmp_3
+        {
+            name = "CURRENT_DRAWING.PLOTFILE_field";
+            location = (18, 1);
+            formula = "GetValue(\"DRAWING.PLOTFILE\")";
+            maxnumoflines = 1;
+            datatype = STRING;
+            class = "";
+            cacheable = TRUE;
+            formatzeroasempty = FALSE;
+            justify = LEFT;
+            visibility = TRUE;
+            angle = 0;
+            length = 40;
+            decimals = 2;
+            sortdirection = NONE;
+            fontname = "fixfont";
+            fontcolor = 153;
+            fonttype = 4;
+            fontsize = 5;
+            fontratio = 1.5;
+            fontstyle = 0;
+            fontslant = 0;
+            pen = -1;
+            oncombine = NONE;
+            aligncontenttotop = FALSE;
+        };
+
+        text _tmp_5
+        {
+            name = "Текст_14";
+            x1 = 2;
+            y1 = 3;
+            x2 = 2;
+            y2 = 3;
+            string = "<Drawing>";
+            fontname = "Courier New";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 1;
+            fontratio = 1;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = -1;
+        };
+
+        text _tmp_7
+        {
+            name = "Текст";
+            x1 = 2;
+            y1 = 0;
+            x2 = 2;
+            y2 = 0;
+            string = "</Drawing>";
+            fontname = "Courier New";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 1;
+            fontratio = 1;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = -1;
+        };
+
+        text _tmp_9
+        {
+            name = "Текст_2";
+            x1 = 4;
+            y1 = 2;
+            x2 = 4;
+            y2 = 2;
+            string = "<NameBase>";
+            fontname = "Courier New";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 1;
+            fontratio = 1;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = -1;
+        };
+
+        text _tmp_11
+        {
+            name = "Текст_3";
+            x1 = 59;
+            y1 = 2;
+            x2 = 59;
+            y2 = 2;
+            string = "</NameBase>";
+            fontname = "Courier New";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 1;
+            fontratio = 1;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = -1;
+        };
+
+        text _tmp_13
+        {
+            name = "Текст_4";
+            x1 = 4;
+            y1 = 1;
+            x2 = 4;
+            y2 = 1;
+            string = "<DrwFilename>";
+            fontname = "Courier New";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 1;
+            fontratio = 1;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = -1;
+        };
+
+        text _tmp_15
+        {
+            name = "Текст_5";
+            x1 = 59;
+            y1 = 1;
+            x2 = 59;
+            y2 = 1;
+            string = "</DrwFilename>";
+            fontname = "Courier New";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 1;
+            fontratio = 1;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = -1;
+        };
+    };
+
+    row _tmp_0
+    {
+        name = "PART";
+        height = 4;
+        visibility = TRUE;
+        usecolumns = FALSE;
+        rule = "";
+        contenttype = "PART";
+        sorttype = COMBINE;
+
+        valuefield _tmp_2
+        {
+            name = "DRAWING.PLOTFILE_field";
+            location = (18, 1);
+            formula = "GetValue(\"DRAWING.PLOTFILE\")";
+            maxnumoflines = 1;
+            datatype = STRING;
+            class = "";
+            cacheable = TRUE;
+            formatzeroasempty = FALSE;
+            justify = LEFT;
+            visibility = TRUE;
+            angle = 0;
+            length = 40;
+            decimals = 2;
+            sortdirection = NONE;
+            fontname = "fixfont";
+            fontcolor = 153;
+            fonttype = 4;
+            fontsize = 5;
+            fontratio = 1.5;
+            fontstyle = 0;
+            fontslant = 0;
+            pen = -1;
+            oncombine = NONE;
+            aligncontenttotop = FALSE;
+        };
+
+        text _tmp_17
+        {
+            name = "Текст_6";
+            x1 = 2;
+            y1 = 3;
+            x2 = 2;
+            y2 = 3;
+            string = "<Drawing>";
+            fontname = "Courier New";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 1;
+            fontratio = 1;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = -1;
+        };
+
+        text _tmp_19
+        {
+            name = "Текст_7";
+            x1 = 2;
+            y1 = 0;
+            x2 = 2;
+            y2 = 0;
+            string = "</Drawing>";
+            fontname = "Courier New";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 1;
+            fontratio = 1;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = -1;
+        };
+
+        text _tmp_21
+        {
+            name = "Текст_8";
+            x1 = 4;
+            y1 = 2;
+            x2 = 4;
+            y2 = 2;
+            string = "<NameBase>";
+            fontname = "Courier New";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 1;
+            fontratio = 1;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = -1;
+        };
+
+        text _tmp_23
+        {
+            name = "Текст_9";
+            x1 = 59;
+            y1 = 2;
+            x2 = 59;
+            y2 = 2;
+            string = "</NameBase>";
+            fontname = "Courier New";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 1;
+            fontratio = 1;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = -1;
+        };
+
+        text _tmp_25
+        {
+            name = "Текст_10";
+            x1 = 4;
+            y1 = 1;
+            x2 = 4;
+            y2 = 1;
+            string = "<DrwFilename>";
+            fontname = "Courier New";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 1;
+            fontratio = 1;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = -1;
+        };
+
+        text _tmp_27
+        {
+            name = "Текст_11";
+            x1 = 59;
+            y1 = 1;
+            x2 = 59;
+            y2 = 1;
+            string = "</DrwFilename>";
+            fontname = "Courier New";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 1;
+            fontratio = 1;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = -1;
+        };
+
+        valuefield _tmp_31
+        {
+            name = "ValueField";
+            location = (18, 2);
+            formula = "GetValue(\"DRAWING.NAME_BASE\")";
+            maxnumoflines = 1;
+            datatype = STRING;
+            class = "";
+            cacheable = TRUE;
+            formatzeroasempty = FALSE;
+            justify = LEFT;
+            visibility = TRUE;
+            angle = 0;
+            length = 20;
+            decimals = 2;
+            sortdirection = ASCENDING;
+            fontname = "fixfont";
+            fontcolor = 153;
+            fonttype = 4;
+            fontsize = 5;
+            fontratio = 1.5;
+            fontstyle = 0;
+            fontslant = 0;
+            pen = -1;
+            oncombine = NONE;
+            aligncontenttotop = FALSE;
+        };
+    };
+
+    footer _tmp_3
+    {
+        name = "Нижний колонтитул";
+        height = 1;
+
+        text _tmp_4
+        {
+            name = "</Заказ>";
+            x1 = 0;
+            y1 = 0;
+            x2 = 0;
+            y2 = 0;
+            string = "</Project>";
+            fontname = "Courier New";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 1;
+            fontratio = 1;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = -1;
+        };
+    };
+};

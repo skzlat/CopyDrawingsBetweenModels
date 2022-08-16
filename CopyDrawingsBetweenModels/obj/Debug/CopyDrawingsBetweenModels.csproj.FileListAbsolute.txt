@@ -1,0 +1,14 @@
+\\172.16.0.23\models\!VSProjects\CopyDrawingsBetweenModels\CopyDrawingsBetweenModels\bin\Debug\CopyDrawingsBetweenModels.exe.config
+\\172.16.0.23\models\!VSProjects\CopyDrawingsBetweenModels\CopyDrawingsBetweenModels\bin\Debug\CopyDrawingsBetweenModels.exe
+\\172.16.0.23\models\!VSProjects\CopyDrawingsBetweenModels\CopyDrawingsBetweenModels\bin\Debug\CopyDrawingsBetweenModels.pdb
+\\172.16.0.23\models\!VSProjects\CopyDrawingsBetweenModels\CopyDrawingsBetweenModels\obj\Debug\CopyDrawingsBetweenModels.csproj.AssemblyReference.cache
+\\172.16.0.23\models\!VSProjects\CopyDrawingsBetweenModels\CopyDrawingsBetweenModels\obj\Debug\MainWindow.g.cs
+\\172.16.0.23\models\!VSProjects\CopyDrawingsBetweenModels\CopyDrawingsBetweenModels\obj\Debug\App.g.cs
+\\172.16.0.23\models\!VSProjects\CopyDrawingsBetweenModels\CopyDrawingsBetweenModels\obj\Debug\CopyDrawingsBetweenModels_MarkupCompile.cache
+\\172.16.0.23\models\!VSProjects\CopyDrawingsBetweenModels\CopyDrawingsBetweenModels\obj\Debug\MainWindow.baml
+\\172.16.0.23\models\!VSProjects\CopyDrawingsBetweenModels\CopyDrawingsBetweenModels\obj\Debug\CopyDrawingsBetweenModels.g.resources
+\\172.16.0.23\models\!VSProjects\CopyDrawingsBetweenModels\CopyDrawingsBetweenModels\obj\Debug\CopyDrawingsBetweenModels.Properties.Resources.resources
+\\172.16.0.23\models\!VSProjects\CopyDrawingsBetweenModels\CopyDrawingsBetweenModels\obj\Debug\CopyDrawingsBetweenModels.csproj.GenerateResource.cache
+\\172.16.0.23\models\!VSProjects\CopyDrawingsBetweenModels\CopyDrawingsBetweenModels\obj\Debug\CopyDrawingsBetweenModels.csproj.CoreCompileInputs.cache
+\\172.16.0.23\models\!VSProjects\CopyDrawingsBetweenModels\CopyDrawingsBetweenModels\obj\Debug\CopyDrawingsBetweenModels.exe
+\\172.16.0.23\models\!VSProjects\CopyDrawingsBetweenModels\CopyDrawingsBetweenModels\obj\Debug\CopyDrawingsBetweenModels.pdb
